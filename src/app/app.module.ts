@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { ManufacturerComponent } from './manufacturer/manufacturer.component';
 import { ProductComponent } from './product/product.component';
-import { Menubtl1Component } from './menubtl1/menubtl1.component';
-import { FooterComponent } from './footer/footer.component';
-import { Mainbtl1Component } from './mainbtl1/mainbtl1.component';
+import { MainComponent } from './btl1/main/main.component';
+import { FooterComponent } from './btl1/footer/footer.component';
 import { HeaderComponent } from './btl2/header/header.component';
-import { MainComponent } from './btl2/main/main.component';
+import { Main2Component } from './btl2/main2/main2.component';
+import { Footer2Component } from './btl2/footer2/footer2.component';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { MainComponent } from './btl2/main/main.component';
     MenuComponent,
     ManufacturerComponent,
     ProductComponent,
-    Menubtl1Component,
-    FooterComponent,
-    Mainbtl1Component,
-    HeaderComponent,
     MainComponent,
+    FooterComponent,
+    HeaderComponent,
+    Main2Component,
+    Footer2Component,
+
   ],
   imports: [
     BrowserModule,
